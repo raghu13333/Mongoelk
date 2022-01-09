@@ -1,0 +1,17 @@
+{
+    "elasticsearch": {
+        "url":"http://localhost:",
+        "port":"9200",
+        "elasticsearchIndices": {
+            "COMPANY": {
+              "index":"company",
+              "type":"COMPANY",
+              "collectionName":"images"
+            }
+        }
+    },
+    "mongodb": {
+      "url":"mongodb+srv://admin:admin@uploader.zl6np.mongodb.net/test",
+      "databaseName":"test"
+    }
+}
